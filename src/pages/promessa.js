@@ -12,7 +12,7 @@ export default function Promessa(){
     return <>
     <Menu />
     <Container>
-        Promessa {prometido === "" ? "<carregando>" : prometido}
+        Promessa {prometido === "" ? <img src="./negocio.gif" width={10} height= {10}/> : prometido}
     </Container>
     <Footer/>
     </>
